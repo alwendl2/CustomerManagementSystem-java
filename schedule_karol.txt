@@ -1,0 +1,16 @@
+Schedule:
+	- Make a Main Layout - 2/25 (2 hours)
+	- Make a Login Page - 2/25 (1 Hour)
+	- Make a page for  account information - 2/25 (2 Hour)
+	- Set up SQL server and create database - 2/26 (4 Hours)
+	- Make a messaging system - 2/28  (6 Hours)
+	- Make a customer bulletin section 3/01 (2 Hours)
+	- Make a google calendar system-3/02 (3 Hours
+	- Make an export system for contact info - 3/03 (3 hours)
+	- Sorting and Searching algorithms - 3/04 (2 Hours)
+	- Set up access from a manager setting - 3/05 (2 Hour)
+	- Set up special user manager hierarchy - 3/07 (1 hours)
+	- create permissions for users - 3/09 (2 hours)
+	- create feature to share calendars between users - 3/10 (2 hours)
+	- Testing and Bug Hunting - 3/11 (6 hours)
+	- prepare program for first demo - 3/13 (8 hours)
