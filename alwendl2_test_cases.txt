@@ -1,0 +1,11 @@
+testInfoDisplays
+	Action: Click on id of info
+	Assert ClientInfo.id = displayClientInfo.id
+
+testMemoSend
+	Input: "Test Message" in MessageCenter
+	Assert "Test Message" is in MessageCenter
+
+testPageUp 
+	Action: Click on the right arrow next to number
+	Assert page moves to next and number increments

@@ -1,0 +1,11 @@
+Schedule:
+
+	* Make a login screen - 2/25 (2 hours)
+	* Make a page to input account data - 2/25 (1 hour)
+	* Learn and make chat box to send/receive massages - 2/26 (6 hours)
+	* Make calendar - 3/01 (2 hours)
+	* Learn and set SQL server - 3/04 (4 hours)
+	* Work on sorting the list of data - 3/04 (1 hour)
+	* Work on setting up private access for managers only - 3/05 ( 3 hours)
+	* Fix bugs and test the system - 3/12 (6 hours)
+

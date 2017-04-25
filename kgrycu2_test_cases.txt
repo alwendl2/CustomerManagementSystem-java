@@ -1,0 +1,9 @@
+testDashboardButton
+	Action: click on Dashboard Button
+	Assert: Dashboard page opened up
+testEmailButton
+	Action: click email Button
+	Assert: internet page with email opens up
+testLogoutButton
+	Action: click logout Button
+	Assert: Closes window and brings up login screen
