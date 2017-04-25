@@ -4,6 +4,7 @@ package GUI.Appointments;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
+import java.awt.Font;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 import java.awt.event.ActionEvent;
@@ -84,6 +85,9 @@ public class AppointmentSidePanel extends JPanel implements ActionListener {
 		
 		ASP_LOGOUT_BUTTON = new JButton("Logout");
 		ASP_BUTTONS[2] = ASP_LOGOUT_BUTTON;
+		ASP_BUTTONS[0].setFont(new Font("Serif", Font.BOLD,20));
+		ASP_BUTTONS[1].setFont(new Font("Serif", Font.BOLD,20));
+		ASP_BUTTONS[2].setFont(new Font("Serif", Font.BOLD,20));
 		
 		for(int a = 0; a< ASP_BUTTONS.length; a++){
 			ASP_BUTTONS[a].addActionListener(this);

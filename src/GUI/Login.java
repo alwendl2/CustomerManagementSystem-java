@@ -47,7 +47,7 @@ public class Login extends JFrame {
 		password = new JLabel("Password - ");
 		CRM = new JPanel();
 		CRM_LABEL = new JLabel("CRM");
-
+		loginbutton.setPreferredSize(new Dimension(125,40));
 		GridBagLayout f1 = new GridBagLayout();
 		GridBagConstraints gbc = new GridBagConstraints();
 		

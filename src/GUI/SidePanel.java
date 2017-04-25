@@ -3,6 +3,7 @@ package GUI;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
+import java.awt.Font;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 import java.awt.event.ActionEvent;
@@ -103,10 +104,15 @@ public class SidePanel extends JPanel implements ActionListener {
 			GBC.fill = GridBagConstraints.BOTH;
 			TOP_PANEL.add(BUTTONS[a],GBC);
 		}
+		
 		BUTTONS[0].setText("Client Select");
 		BUTTONS[1].setText("Client Appointments");
 		BUTTONS[2].setText("My Portfolio");
 		BUTTONS[3].setText("Logout");
+		BUTTONS[0].setFont(new Font("Serif", Font.BOLD,20));
+		BUTTONS[1].setFont(new Font("Serif", Font.BOLD,20));
+		BUTTONS[2].setFont(new Font("Serif", Font.BOLD,20));
+		BUTTONS[3].setFont(new Font("Serif", Font.BOLD,20));
 	}
 	
 	private void initBottomPanel() { //Creates and initializes the BOTTOM_PANEL which holds the notifications
